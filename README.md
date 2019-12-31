@@ -2,4 +2,8 @@
 
 ![website screenshot](screenshot.png)
 
-(https://weatherapi23.herokuapp.com/ "Weather API website")
+[Weather API Website](https://weatherapi23.herokuapp.com/ "Weather API Website")
+
+UI Designed by [mmeiers]( https://codepen.io/mmeiers "mmeiers")
+
+<p> I programmed the backend using JavaScript(NodeJs)/Express/Request </p>
