@@ -3,7 +3,6 @@ const ejs = require('ejs');
 const bodyParser = require('body-parser');
 const app = express();
 const request = require('request');
-require('dotenv').config()
 
 app.use(bodyParser.urlencoded({
   extended: true
@@ -253,7 +252,7 @@ app.route("/")
 
 
 
-    const APIkey = process.env.API_KEY;
+    const APIkey = "47ec556034454d8caf815808190412";
     const ZIP = req.body.zipcode;
     const url = "http://api.weatherapi.com/v1/forecast.json?key="+ APIkey+"&q=" + city + "&days=3";
     request(url, function(error, response, body) {
