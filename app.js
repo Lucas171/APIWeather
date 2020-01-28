@@ -252,7 +252,7 @@ app.route("/")
 
 
 
-    const APIkey = "47ec556034454d8caf815808190412";
+    const APIkey = "3319c5ff8a6b41ac830191943200501";
     const ZIP = req.body.zipcode;
     const url = "http://api.weatherapi.com/v1/forecast.json?key="+ APIkey+"&q=" + city + "&days=3";
     request(url, function(error, response, body) {
